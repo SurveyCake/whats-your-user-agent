@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<!-- Required meta tags -->
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+
+		<title>SurveyCake User Agent Detector</title>
+
+		<script src='https://cdn.jsdelivr.net/npm/ua-parser-js@0/dist/ua-parser.min.js'></script>
+		<link rel='stylesheet' type='text/css' href='src/index.css'>
+	</head>
+
+	<body>
+		<div class='hero'>
+			<h2 class='primary'>SurveyCake User Agent Detector</h2>
+			<p>User Agent 是每個裝置的固定字串，透過 User Agent 我們更能理解你的裝置的型號，瀏覽器資訊。</p>
+		</div>
+
+		<div class='information-wrapper'>
+			<div class='information'>
+				<div class='label'>User Agent String</div>
+				<div class='value' id='data-ua-string'></div>
+			</div>
+
+			<div class='information'>
+				<div class='label'>Browser</div>
+				<div class='value'>
+					<ul>
+						<li>Name: <span id='browser-name'></span></li>
+						<li>Version: <span id='browser-version'></span></li>
+						<li>Major: <span id='browser-major'></span></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class='information'>
+				<div class='label'>OS</div>
+				<div class='value'>
+					<ul>
+						<li>Name: <span id='os-name'></span></li>
+						<li>Version: <span id='os-version'></span></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class='information'>
+				<div class='label'>Device</div>
+				<div class='value'>
+					<ul>
+						<li>Model: <span id='device-model'></span></li>
+						<li>Type: <span id='device-type'></span></li>
+						<li>Vendor: <span id='device-vendor'></span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<script src='src/index.js'></script>
+	</body>
+</html>

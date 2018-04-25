@@ -1,0 +1,49 @@
+body {
+	padding: 20px;
+	background: #EFEFEF;
+	color: #666;
+}
+
+.primary {
+	color: #3DBA90;
+}
+
+.hero {
+	padding: 10px 20px;
+	background: #FFF;
+	border-radius: 6px;
+	margin-bottom: 20px;
+}
+
+.information-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.information {
+	margin-bottom: 8px;
+	background: #FFF;
+	border-radius: 6px;
+	padding: 20px;
+	width: 48%;
+	box-sizing: border-box;
+	min-width: 480px;
+}
+
+.information > .label {
+	color: #999;
+	margin-bottom: 12px;
+	border-bottom: #ddd 3px solid;
+	padding-bottom: 10px;
+}
+
+.information > .value {
+	color: #333;
+	line-height: 1.4;
+}
+
+.information > .value span {
+	color: #3DBA90;
+	font-weight: bold;
+}
