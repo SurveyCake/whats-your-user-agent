@@ -29,6 +29,7 @@ body {
 	width: 48%;
 	box-sizing: border-box;
 	min-width: 480px;
+	margin-bottom: 10px;
 }
 
 .information > .label {
