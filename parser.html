@@ -3,7 +3,7 @@
 		<meta charset='utf-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
 
-		<title>SurveyCake User Agent Detector</title>
+		<title>SurveyCake User Agent Parser</title>
 
 		<script src='https://cdn.jsdelivr.net/npm/ua-parser-js@0/dist/ua-parser.min.js'></script>
 		<link rel='stylesheet' type='text/css' href='src/index.css'>
@@ -11,14 +11,14 @@
 
 	<body>
 		<div class='hero'>
-			<h2 class='primary'>SurveyCake User Agent Detector</h2>
-			<p>User Agent 是每個裝置的固定字串，透過 User Agent 我們更能理解你的裝置的型號，瀏覽器資訊。</p>
+			<h2 class='primary'>SurveyCake User Agent Parser</h2>
+			<p>可以手動貼上 UA 取得資訊</p>
 		</div>
 
 		<div class='information-wrapper'>
 			<div class='information'>
 				<div class='label'>User Agent String</div>
-				<div class='value' id='data-ua-string'></div>
+				<textarea class='ua-paste' rows='8' placeholder='Paste UA string here'></textarea>
 			</div>
 
 			<div class='information'>
@@ -55,5 +55,6 @@
 		</div>
 
 		<script src='src/index.js'></script>
+		<script src='src/parser.js'></script>
 	</body>
 </html>
